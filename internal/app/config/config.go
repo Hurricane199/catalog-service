@@ -3,9 +3,10 @@ package config
 import (
 	"log"
 
-	"github.com/Hurricane199/catalog-service/internal/app/config/section"
 	"github.com/joho/godotenv"
 	"github.com/kelseyhightower/envconfig"
+
+	"github.com/Hurricane199/catalog-service/internal/app/config/section"
 )
 
 type Config struct {

@@ -16,7 +16,7 @@ func main() {
 		cfg.Repository.Postgres.Username,
 		cfg.Repository.Postgres.Address,
 		cfg.Repository.Postgres.Name)
-	log.Printf("Enviroment: %s, LogLevel: %s",
-		cfg.Monitor.Enviroment,
+	log.Printf("Environment: %s, LogLevel: %s",
+		cfg.Monitor.Environment,
 		cfg.Monitor.LogLevel)
 }
